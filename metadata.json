@@ -1,0 +1,6 @@
+{
+  "name": "Dictionary",
+  "description": "A beautifully designed, responsive dictionary application featuring offline-first search, Wikipedia integration, image lookups, bookmarks, and a built-in flashcard learning game.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
