@@ -182,7 +182,7 @@ export default function App() {
       return;
     }
 
-    // 4. Online lookup: Fetch from Free Dictionary API + Wikipedia
+    // 4. Online lookup: Fetch from Free Dictionary API + Merriam-Webster
     try {
       // Fetch definitions
       const dictRes = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${query}`);
@@ -210,26 +210,10 @@ export default function App() {
         personalNotes: storedNotes,
       };
 
-      // Fetch related Wikipedia context & image to enhance user experience
-      try {
-        const wikiRes = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(query)}`);
-        if (wikiRes.ok) {
-          const wikiData = await wikiRes.json();
-          if (wikiData.thumbnail?.source) {
-            entry.image = {
-              url: wikiData.thumbnail.source,
-              title: wikiData.title || word,
-              description: wikiData.extract || "",
-              author: "Wikimedia Commons",
-              pageUrl: wikiData.content_urls?.desktop?.page || "",
-            };
-          }
-          if (wikiData.content_urls?.desktop?.page && !entry.sourceUrls?.includes(wikiData.content_urls.desktop.page)) {
-            entry.sourceUrls = [...(entry.sourceUrls || []), wikiData.content_urls.desktop.page];
-          }
-        }
-      } catch (e) {
-        console.warn("Wikipedia image fetch failed:", e);
+      // Add Merriam-Webster as a source reference for the searched word
+      const mwUrl = `https://www.merriam-webster.com/dictionary/${encodeURIComponent(query)}`;
+      if (!entry.sourceUrls?.includes(mwUrl)) {
+        entry.sourceUrls = [...(entry.sourceUrls || []), mwUrl];
       }
 
       // Automatically cache successfully fetched online words for offline use!
@@ -500,12 +484,12 @@ export default function App() {
               Free Dictionary API
             </a>
             <a
-              href="https://wikipedia.org"
+              href="https://www.merriam-webster.com"
               target="_blank"
               rel="noreferrer"
               className="hover:text-indigo-600 underline"
             >
-              Wikipedia REST API
+              Merriam-Webster
             </a>
           </div>
         </div>

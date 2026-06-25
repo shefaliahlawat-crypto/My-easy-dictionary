@@ -28,7 +28,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Serendipity"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/serendipity"],
     image: {
       url: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600&auto=format&fit=crop&q=80",
       title: "Happy Happenstance",
@@ -68,7 +68,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Ephemeral"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/ephemeral"],
     image: {
       url: "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=600&auto=format&fit=crop&q=80",
       title: "Fleeting Time",
@@ -99,7 +99,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Mellifluousness"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/mellifluous"],
     image: {
       url: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=600&auto=format&fit=crop&q=80",
       title: "Melodious Jazz",
@@ -130,7 +130,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Petrichor"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/petrichor"],
     image: {
       url: "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?w=600&auto=format&fit=crop&q=80",
       title: "Refreshing Rain Drops",
@@ -192,7 +192,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Luminescence"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/luminescence"],
     image: {
       url: "https://images.unsplash.com/photo-1507502707541-f369a3b18502?w=600&auto=format&fit=crop&q=80",
       title: "Glow in the Dark",
@@ -223,7 +223,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Ethereal"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/ethereal"],
     image: {
       url: "https://images.unsplash.com/photo-1465447142348-e9952c393450?w=600&auto=format&fit=crop&q=80",
       title: "Misty Alpine Heights",
@@ -254,7 +254,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Solitude"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/solitude"],
     image: {
       url: "https://images.unsplash.com/photo-1470252649358-96f3c8024258?w=600&auto=format&fit=crop&q=80",
       title: "Quiet Retreat",
@@ -285,7 +285,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Labyrinth"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/labyrinth"],
     image: {
       url: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=600&auto=format&fit=crop&q=80",
       title: "Hedge Labyrinth",
@@ -316,7 +316,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Aurora"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/aurora"],
     image: {
       url: "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?w=600&auto=format&fit=crop&q=80",
       title: "Celestial Green Lights",
@@ -356,7 +356,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Halcyon_(bird)"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/halcyon"],
     image: {
       url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80",
       title: "Serene Golden Shore",
@@ -387,7 +387,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Defenestration"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/defenestration"],
     image: {
       url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&auto=format&fit=crop&q=80",
       title: "Glazed Skyscraper Facade",
@@ -449,7 +449,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Ineffable"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/ineffable"],
     image: {
       url: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=600&auto=format&fit=crop&q=80",
       title: "Cosmic Infinite Galaxy",
@@ -480,7 +480,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Eloquence"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/eloquence"],
     image: {
       url: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop&q=80",
       title: "Ink & Quill Writing",
@@ -511,7 +511,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Nostalgia"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/nostalgia"],
     image: {
       url: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&auto=format&fit=crop&q=80",
       title: "Vintage Stacked Books",
@@ -546,7 +546,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Psychological_resilience"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/resilience"],
     image: {
       url: "https://images.unsplash.com/photo-1487260211189-670c54db5504?w=600&auto=format&fit=crop&q=80",
       title: "Sprout in Dry Mud",
@@ -577,7 +577,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Ebullience"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/ebullience"],
     image: {
       url: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=600&auto=format&fit=crop&q=80",
       title: "Leaping for Joy",
@@ -608,7 +608,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Panacea_(medicine)"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/panacea"],
     image: {
       url: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&auto=format&fit=crop&q=80",
       title: "Herbal Remedies",
@@ -639,7 +639,7 @@ export const offlineDictionary: { [key: string]: WordEntry } = {
         ]
       }
     ],
-    sourceUrls: ["https://en.wikipedia.org/wiki/Wanderlust"],
+    sourceUrls: ["https://www.merriam-webster.com/dictionary/wanderlust"],
     image: {
       url: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&auto=format&fit=crop&q=80",
       title: "Plan Your Journey",

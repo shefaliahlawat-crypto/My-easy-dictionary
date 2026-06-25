@@ -399,7 +399,7 @@ export default function WordDetail({
                   <ImageIcon className="w-8 h-8 mb-2 text-slate-300" />
                   <p className="text-xs font-bold text-slate-600">No visual image currently available.</p>
                   <p className="text-[10px] leading-relaxed mt-1 max-w-[200px]">
-                    Images are retrieved automatically from Wikipedia when searched online.
+                    Images are retrieved automatically from Unsplash when available.
                   </p>
                 </div>
               )}
@@ -443,7 +443,7 @@ export default function WordDetail({
                 rel="noreferrer"
                 className="text-xs text-black hover:text-indigo-600 flex items-center space-x-1 underline font-black"
               >
-                <span>Read Wiki/Dict Source</span>
+                <span>Read Dictionary Source</span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
             ))}
